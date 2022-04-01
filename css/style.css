@@ -1,7 +1,141 @@
 :root{
+    --main-color-:#757575;
+    --secondary-color-:#2196F3;
+    --white-color:#ffffff;
+    --header-color-:#212121;
+
+    --main-bc-:#E5E5E5;
+    --secondary-bc-:#2196F3;
+    --navi-bc-:#FFFFFF;
+    --button-color-:#F5F4FA;
+    }   
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--main-bc-);
+    color: var(--main-color-);
+    
+}
+
+.header{
+    color: var(--secondary-color-);
+    background-color: var(--navi-bc-);
+}
+.header a{
+    text-decoration: none;
+}
+.logo{
+    font-family: "releway";
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 1.17;
+
+    color: var(--secondary-color-);
+    
+}
+.logo-header{
+    color: #000000;
+}
+
+.nav-link{
+    font-size: 14px;
+    font-weight: medium;
+    line-height: 1.14;
+    color: var(--header-color-);
 
 }
-body {
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Roboto', sans-serif;
+.nav-link:hover, 
+.nav-link:focus,
+.link:hover,
+.link:focus{
+    color: var(--secondary-color-);
+}
+.link{
+    font-size: 14px;
+    font-weight: medium;
+    line-height: 1.14;
+    color: var(--main-color-);
+}
+
+/* Main */
+
+.hero-title{
+    color: var(--white-color);
+    font-size: 44px;
+    line-height: 1.36;
+}
+.benefits-title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.17;
+    color:var(--header-color-);
+}
+.benefits-text{
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.title{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.17;
+
+    color: var(--header-color-);
+}
+.team-name{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.17;
+
+    color: var(--header-color-);
+}
+.team-text{
+    line-height: 1.17
+    ;
+}
+
+.port-title{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2;
+
+    color: var(--header-color-);
+}
+.port-name{
+    font-size: 16px;
+    line-height: 1.88;
+}
+
+
+/* button */
+[type="button"]{
+background-color: var(--button-color-);
+color: var(--header-color-);
+}
+[type="button"]:hover,
+[type="button"]:target{
+    background-color: var(--secondary-bc-);
+    color: var(--button-color-);
+}
+
+/* footer */
+.footer{
+    background-color: #2F303A;
+    color: var(--white-color);
+    font-style: normal;
+}
+.footer a{
+    text-decoration: none;
+}
+.logo-footer{
+    color: var(--white-color);
+}
+.footer-link{
+    color: var(--white-color);
+    opacity: 0.6;
+}
+.footer-link:hover,
+.footer-link:focus{
+    color: var(--secondary-color-);
+    opacity: 1;
 }
