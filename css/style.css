@@ -4,7 +4,7 @@
     --white-color:#ffffff;
     --header-color-:#212121;
 
-    --main-bc-:#E5E5E5;
+    --main-bc-:#ffffff;
     --secondary-bc-:#2196F3;
     --navi-bc-:#FFFFFF;
     --button-color-:#F5F4FA;
@@ -19,7 +19,7 @@ body{
 
 .header{
     color: var(--secondary-color-);
-    background-color: var(--navi-bc-);
+   
 }
 .header a{
     text-decoration: none;
@@ -81,6 +81,10 @@ body{
     line-height: 1.17;
 
     color: var(--header-color-);
+}
+
+.team{
+    background-color: var(--button-color-);
 }
 .team-name{
     font-size: 16px;
