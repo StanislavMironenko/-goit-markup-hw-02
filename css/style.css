@@ -13,8 +13,8 @@
 body{
     font-family: 'Roboto', sans-serif;
     background-color: var(--main-bc-);
-    color: var(--main-color-);
-    
+    color: var(--main-color-);  
+    letter-spacing: 0.03em;
 }
 
 .header{
@@ -39,7 +39,7 @@ body{
 
 .nav-link{
     font-size: 14px;
-    font-weight: medium;
+    font-weight: 500;
     line-height: 1.14;
     color: var(--header-color-);
 
@@ -63,23 +63,28 @@ body{
     color: var(--white-color);
     font-size: 44px;
     line-height: 1.36;
+
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
 }
 .benefits-title{
     font-weight: 700;
     font-size: 14px;
     line-height: 1.17;
     color:var(--header-color-);
+
+    text-transform: uppercase;
 }
 .benefits-text{
     font-size: 14px;
     line-height: 1.71;
-}
+  }
 
 .title{
     font-size: 36px;
     font-weight: 700;
     line-height: 1.17;
-
+    
     color: var(--header-color-);
 }
 
@@ -90,6 +95,7 @@ body{
     font-size: 16px;
     font-weight: 500;
     line-height: 1.17;
+    letter-spacing: 0.06em;
 
     color: var(--header-color-);
 }
@@ -119,8 +125,16 @@ background-color: var(--button-bc-);
 color: var(--header-color-);
 }
 .btn{
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.06em;
+    line-height: 1.87;
+
+
     background-color: var(--secondary-bc-);
     color: var(--white-color);
+   
+   
 }
 .hero .btn:hover,
 .hero .btn:focus{
@@ -141,6 +155,7 @@ color: var(--white-color);
     background-color: #2F303A;
     color: var(--white-color);
     font-style: normal;
+    letter-spacing: 0.03em;
 }
 .footer a{
     text-decoration: none;
