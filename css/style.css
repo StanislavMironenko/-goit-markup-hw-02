@@ -6,8 +6,8 @@
 
     --main-bc-:#ffffff;
     --secondary-bc-:#2196F3;
-    --navi-bc-:#FFFFFF;
-    --button-color-:#F5F4FA;
+    --button-bc-:#F5F4FA;
+    --focus-btn-bc-:#188CE8;
     }   
 
 body{
@@ -84,7 +84,7 @@ body{
 }
 
 .team{
-    background-color: var(--button-color-);
+    background-color: var(--button-bc-);
 }
 .team-name{
     font-size: 16px;
@@ -94,8 +94,10 @@ body{
     color: var(--header-color-);
 }
 .team-text{
-    line-height: 1.17
-    ;
+    line-height: 1.17;
+}
+.team-card{
+    background-color: var(--main-bc-);
 }
 
 .port-title{
@@ -113,14 +115,26 @@ body{
 
 /* button */
 [type="button"]{
-background-color: var(--button-color-);
+background-color: var(--button-bc-);
 color: var(--header-color-);
 }
-[type="button"]:hover,
-[type="button"]:target{
+.btn{
     background-color: var(--secondary-bc-);
-    color: var(--button-color-);
+    color: var(--white-color);
 }
+.hero .btn:hover,
+.hero .btn:focus{
+background-color: var(--focus-btn-bc-);
+color: var(--white-color);
+}
+
+[type="button"]:hover,
+[type="button"]:focus{
+    background-color: var(--secondary-bc-);
+    color: var(--white-color);
+}
+
+
 
 /* footer */
 .footer{
@@ -142,4 +156,7 @@ color: var(--header-color-);
 .footer-link:focus{
     color: var(--secondary-color-);
     opacity: 1;
+}
+.contacts address{
+    font-style: normal;
 }
